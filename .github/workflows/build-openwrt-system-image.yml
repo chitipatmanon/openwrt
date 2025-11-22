@@ -12,10 +12,10 @@ on:
       source_branch:
         description: "Select the source branch"
         required: false
-        default: "openwrt_main"
+        default: "openwrt_v24.10.4"
         type: choice
         options:
-          - openwrt_main
+          - openwrt_v24.10.4
           - immortalwrt_master
           - lede_master
       openwrt_board:
