@@ -417,7 +417,7 @@ find_openwrt() {
         # For example, DISTRIB_SOURCECODE='openwrt'
         source_codename="${DISTRIB_SOURCECODE:-""}"
         # For example, DISTRIB_SOURCEBRANCH='v24.10.4'
-        source_branch="${DISTRIB_SOURCEBRANCH:-""}"
+        source_branch="${DISTRIB_SOURCEBRANCH:-"v24.10.4"}"
 
         # Print the source information
         echo -e "${INFO} The source codename: [ ${source_codename} ], source branch: [ ${source_branch} ], source repository: [ ${source_repo} ]."
