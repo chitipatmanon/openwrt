@@ -24,7 +24,7 @@ sed -i "s/root::0:0:99999:7:::/root:"'$'"1"'$'"pSFNodTy"'$'"ej92Jju6QPD9AIAuelgn
 sed -i "s|DISTRIB_REVISION='.*'|DISTRIB_REVISION='R$(date +%Y.%m.%d)'|g" package/base-files/files/etc/openwrt_release
 echo "DISTRIB_SOURCEREPO='github.com/openwrt/openwrt'" >>package/base-files/files/etc/openwrt_release
 echo "DISTRIB_SOURCECODE='openwrt'" >>package/base-files/files/etc/openwrt_release
-echo "DISTRIB_SOURCEBRANCH='v24.10.4'" >>package/base-files/files/etc/openwrt_release
+echo "DISTRIB_SOURCEBRANCH='v24.10.3'" >>package/base-files/files/etc/openwrt_release
 #
 # ------------------------------- Main source ends -------------------------------
 
