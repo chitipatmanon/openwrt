@@ -44,8 +44,8 @@ git clone https://github.com/vernesong/OpenClash.git package/openclash
 
 # Add clash-core
 mkdir -p files/etc/openclash/core
-wget -qO- https://github.com/vernesong/OpenClash/blob/core/master/smart/clash-linux-arm64.tar.gz | tar xOvz > files/etc/openclash/core/clash  
-wget -qO- https://github.com/vernesong/OpenClash/raw/refs/heads/core/master/meta/clash-linux-arm64.tar.gz | tar xOvz > files/etc/openclash/core/clash_meta
+wget -qO- https://github.com/vernesong/OpenClash/raw/core/master/smart/clash-linux-arm64.tar.gz | tar xOvz > files/etc/openclash/core/clash
+wget -qO- https://github.com/vernesong/OpenClash/raw/core/master/meta/clash-linux-arm64.tar.gz | tar xOvz > files/etc/openclash/core/clash_meta
 chmod +x files/etc/openclash/core/clash*
 
 # Apply patch
